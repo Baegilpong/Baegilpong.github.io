@@ -47,3 +47,61 @@ img {
     height: auto;
     border-radius: 50%;
 }
+
+.intro, .resume, .contact {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.links a {
+    text-decoration: none;
+    color: #0073b1; /* LinkedIn color */
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .intro, .resume, .contact {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro, .resume, .contact {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+}

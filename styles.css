@@ -37,15 +37,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 img {
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .intro, .resume, .contact {
@@ -72,6 +69,10 @@ img {
     margin-top: 20px;
     font-size: 0.8em;
     color: #ccc;
+}
+
+.fab {
+    margin-right: 5px;
 }
 
 /* Media Queries */
